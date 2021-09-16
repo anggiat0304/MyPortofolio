@@ -1,0 +1,16 @@
+.myPortofolio{
+  background-image: url('../images/astetic-black.jpg');
+  color: white;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  transition: all 1s;
+}
+.myPortofolio  h1{
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+    font-size: 40px;
+    font-family: 'Oxanium';
+}

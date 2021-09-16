@@ -1,0 +1,26 @@
+.Work{
+    height: 100vh;
+    background-color: gray;
+}
+.Work > .Work-contents{
+    background-color: white;
+    height: 100%;
+    margin: 0px 50px;
+    border-radius: 20px;
+}
+.Work >.Work-contents .Work-title{
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 30px;
+}
+.Work-data{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0 20px;
+}
+.Work-data > .Work-items{
+    margin-top: 10px;
+}
+.Work-data > .Work-items > p > a{
+    text-decoration: none;
+}

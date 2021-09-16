@@ -1,0 +1,17 @@
+.Education{
+    height: 100vh;
+    background-color: white;
+}
+.Education > .Education-content >.Education-title{
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Education > .Education-content{
+    display: block;
+    background-color: gray;
+    margin:0 50px;
+    height: 100%;
+    border-radius: 20px;
+}

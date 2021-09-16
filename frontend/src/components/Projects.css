@@ -1,0 +1,22 @@
+.Projects{
+    height: 100vh;
+    background-color: gray;
+}
+.Projects > .Projects-contents{
+    background-color: white;
+    height: 100%;
+    margin: 0px 50px;
+    border-radius: 20px;
+}
+.Projects >.Projects-contents .Projects-title{
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 30px;
+}
+.Projects-data{
+    display: flex;
+    margin: 0px 20px 0 20px;
+}
+.Projects-data > .Projects-items > p > a{
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.profile{
+    height: 100vh;
+    background-color:rgb(187, 180, 180);
+}
+.profile > .profile-content{
+    height: 95%;
+    background-color: white;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin: 0px 50px;
+}
+.profile >.profile-content > .profile-title > h1{
+    text-align: center;
+    font-family: 'Oxanium';
+    font-size: 40px;
+}
+.profile > .profile-content > .profile-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+}
+.profile > .profile-content > .profile-data > .profile-left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxanium';
+}
+.profile > .profile-content > .profile-data > .profile-left > h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.profile > .profile-content > .profile-data > .profile-left > p> a{
+    text-decoration: none;
+}
+.profile > .profile-content > .profile-data > .profile-left > p{
+    margin-top: 10px;
+}
